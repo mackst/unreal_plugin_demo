@@ -92,7 +92,7 @@ void VulkanApp::PointCloudRender(uint32_t width, uint32_t height, FSlateBrush& b
     // 模型顶点信息
     glm::vec3 minimum, maximum;
     std::vector<Point> pointCloud;
-    //std::string testfile = "E:/coding/cppProjects/vulkan_compute_exercises/assets/flowers.obj";
+    //std::string testfile = "E:/assets/flowers.obj";
     //ReadPointCloud(testfile.c_str(), pointCloud, minimum, maximum);
     GetPointCloudFromWorld(pointCloud, minimum, maximum);
     if (pointCloud.size() == 0)

@@ -14,3 +14,11 @@ https://github.com/mackst/unreal_python_demo/blob/main/actorMoveInfo_pyside6.py
 
 如基于 pyimgui 和 glfw 的: 
 https://github.com/mackst/unreal_python_demo/blob/main/window_imgui_glfw.py
+
+### [PointCloudRender](PointCloudRender)
+这个插件展示如何使用C++第三方库，UE版本5.4.1
+
+![preview](PointCloudRender.png)
+
+使用vulkan sdk，把
+https://github.com/bkerbl/vulkan-compute-exercises/tree/main/07_PointCloudRender 做成了unreal插件
